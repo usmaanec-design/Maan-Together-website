@@ -1,0 +1,87 @@
+import type { ProductItem } from "../types";
+
+export const PRODUCTS_DATA: ProductItem[] = [
+  {
+    id: "hissab-cashbook",
+    name: "Hissab CashBook",
+    tagline: "Digital Cashbook & Financial Record Management",
+    description:
+      "A digital cashbook and financial record management application designed to simplify personal and small-business financial tracking.",
+    category: "Financial Management Tool",
+    platform: "Microsoft Store / Windows PC",
+    status: "Published / Active",
+    keyFeatures: [
+      "Simplified daily cash in / cash out ledger tracking",
+      "Category-based expense and income segregation",
+      "Instant balance calculation and period summary views",
+      "Clean, distraction-free interface for rapid data entry",
+      "Available on Windows via official Microsoft Store",
+    ],
+    technologies: ["React", "TypeScript", "Database Systems", "Windows PC"],
+    link: "https://apps.microsoft.com/detail/9NHC3V5425TL?hl=en&gl=SA&ocid=pdpshare",
+    actionLabel: "View on Microsoft Store",
+    imageUrl: "/assets/cashbook-software-ui.jpg",
+  },
+  {
+    id: "convertinghub",
+    name: "ConvertingHub",
+    tagline: "Digital Document & File Conversion Platform",
+    description:
+      "A digital document and file conversion platform providing practical tools for converting and managing common document formats.",
+    category: "Productivity & File Utility",
+    platform: "Microsoft Store / Windows PC",
+    status: "Published / Active",
+    keyFeatures: [
+      "Practical tools for common document format conversion",
+      "Fast local and client-assisted file handling",
+      "Clean user interface built for high-efficiency workflows",
+      "Privacy-first processing without unnecessary data exposure",
+      "Available on Windows via official Microsoft Store",
+    ],
+    technologies: ["React", "Web Technologies", "API Integration", "Windows Ecosystem"],
+    link: "https://apps.microsoft.com/detail/9PHBPD4FF03G?hl=en-us&gl=SA&ocid=pdpshare",
+    actionLabel: "View on Microsoft Store",
+    imageUrl: "/assets/hero-tech-dashboard.jpg",
+  },
+  {
+    id: "noor-e-quran",
+    name: "Noor-e-Quran",
+    tagline: "Quran Application with Offline Access & Tajweed",
+    description:
+      "A Quran application focused on offline Quran access, Urdu reading support, Tajweed colors, Qibla and prayer-related features.",
+    category: "Islamic & Educational Software",
+    platform: "Multi-Platform / Mobile & Web",
+    status: "Published / Active",
+    keyFeatures: [
+      "Reliable offline access to complete Quranic text",
+      "Clear Urdu reading support and parallel translations",
+      "Tajweed color-coded rules for recitation assistance",
+      "Qibla direction locator and prayer-related utilities",
+      "Optimized lightweight performance on all device tiers",
+    ],
+    technologies: ["React", "TypeScript", "Offline Storage", "Location Services"],
+    link: "#contact",
+    actionLabel: "View Details",
+  },
+  {
+    id: "zahran-business-solutions",
+    name: "Zahran Business Solutions",
+    tagline: "Custom Operational & Workforce Management System",
+    description:
+      "Customized business applications and digital systems developed for operational reporting, workforce management, vehicle monitoring, and business data management.",
+    category: "Enterprise Business Management",
+    platform: "Cloud & Internal Business Web System",
+    status: "In Production / Private Solution",
+    keyFeatures: [
+      "Daily operational reporting and executive data summaries",
+      "Workforce management, attendance, and duty tracking",
+      "Vehicle activity logging, fleet movements, and operational records",
+      "Centralized business data management and secure record retrieval",
+      "Customized around proprietary business workflows",
+    ],
+    technologies: ["React", "TypeScript", "Firestore / Cloud", "Business Automation"],
+    link: "#contact",
+    actionLabel: "Inquire About System",
+    imageUrl: "/assets/automation-workflow-tech.jpg",
+  },
+];

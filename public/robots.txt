@@ -1,0 +1,15 @@
+# robots.txt for Maan Together
+User-agent: *
+Allow: /
+Disallow: /dist/
+
+# Search Engine Specific
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Sitemaps
+Sitemap: https://maantogether.com/sitemap.xml
+Sitemap: https://maantogether.pages.dev/sitemap.xml
